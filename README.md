@@ -60,4 +60,11 @@ python3 elca-cli.py invia 1234
 
 Il portale usa ASP.NET WebForms con emulatore ASNA Monarch. Ogni azione è una POST con VIEWSTATE e tasti funzione (F3, F6, Enter). La CLI mantiene la sessione in `~/.elca-cli/session.json` e ricostruisce le richieste parlando direttamente le operazioni macchina dell'AS400.
 
-Reverse engineering completo in [.code/elca-portal-analysis.md](.code/elca-portal-analysis.md).
+## Licenza 
+
+MIT
+
+## Sicurezza
+
+Usate a vostro rischio, questo tool è stato scritto solo a scopo dimostrativo, non è suggerito il suo utilizzo e potrebbe comportare ban o sanzioni da parte degli amministratori del sito.
+
